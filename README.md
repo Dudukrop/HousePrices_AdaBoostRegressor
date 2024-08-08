@@ -1,6 +1,5 @@
 <h1>House Prices</h1>
     <p>O projeto "House Prices" é uma análise e predição dos preços de venda de casas utilizando o dataset do Kaggle. Este projeto envolve a análise exploratória dos dados, a limpeza e a transformação das variáveis, e a aplicação de algoritmos de aprendizado de máquina para prever o preço de venda de imóveis.</p>
-
     <h2>Data Overview</h2>
     <p>Os dados utilizados no projeto são divididos em conjuntos de treino e teste, e incluem uma variedade de características de propriedades, como o tamanho do lote, o ano de construção, a qualidade da construção, entre outros.</p>
     <ul>
@@ -8,7 +7,6 @@
         <li><strong>Conjunto de Teste:</strong> 1459 entradas com 80 características cada.</li>
         <li>O conjunto de dados completo é uma concatenação dos conjuntos de treino e teste, resultando em 2919 entradas.</li>
     </ul>
-
     <h2>Data Cleaning</h2>
     <p>Foram realizadas diversas etapas de limpeza de dados para lidar com valores ausentes e transformar variáveis, incluindo:</p>
     <ul>
@@ -16,7 +14,6 @@
         <li>Preenchimento de valores ausentes em variáveis numéricas com a média ou zero, dependendo do contexto.</li>
         <li>Conversão de variáveis categóricas em numéricas para utilização em modelos de aprendizado de máquina.</li>
     </ul>
-
     <h2>Data Exploration</h2>
     <p>A análise exploratória dos dados foi realizada para entender a distribuição das variáveis e suas relações com o preço de venda. Algumas das principais descobertas incluem:</p>
     <ul>
@@ -24,7 +21,6 @@
         <li>A qualidade geral da construção (<em>OverallQual</em>) tem uma forte correlação com o preço de venda.</li>
         <li>Variáveis como <em>GrLivArea</em> e <em>TotalBsmtSF</em> também são indicadores importantes do preço de venda.</li>
     </ul>
-
     <h2>Preenchimento de Valores Ausentes</h2>
     <p>Valores ausentes foram tratados conforme abaixo:</p>
     <ul>
@@ -60,6 +56,5 @@
         <li><strong>MiscFeature:</strong> Preenchido com 'None'.</li>
         <li><strong>SaleType:</strong> Preenchido com 'WD'.</li>
     </ul>
-
     <h2>Conclusão</h2>
     <p>O projeto "House Prices" demonstra o processo de análise de dados, limpeza e preparação de um conjunto de dados imobiliários para previsão de preços de venda utilizando algoritmos de aprendizado de máquina.</p>
