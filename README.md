@@ -1,4 +1,4 @@
-<h1>House Prices Project</h1>
+<h1>House Prices</h1>
     <p>O projeto "House Prices" é uma análise e predição dos preços de venda de casas utilizando o dataset do Kaggle. Este projeto envolve a análise exploratória dos dados, a limpeza e a transformação das variáveis, e a aplicação de algoritmos de aprendizado de máquina para prever o preço de venda de imóveis.</p>
 
     <h2>Data Overview</h2>
